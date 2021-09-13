@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Musics</title>
+    <link rel="icon" href="./assets/img/Slider/FACE.jfif" type="image/gif" >
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -13,29 +15,33 @@
         <div id="header">
             <!-- Begin: Nav -->
             <ul id="nav">
-                <li><a href="">Edm vn</a></li>
-                <li><a href="">Ncs</a></li>
-                <li><a href="">Electronic</a></li>
-                <li><a href="">Kpop</a></li>
+                <li><a href="#">Edm vn</a></li>
+                <li><a href="#id-ncs-section">Ncs</a></li>
+                <li><a href="#id-electronic">Electronic</a></li>
+                <li><a href="#id-contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More
                         <i class="nav-arrow ti-angle-down"></i>  
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
                 
             </ul>
             <!-- End: Nav -->
-            <!--Begin: button-search  --> 
+            <!--Begin: button  --> 
+            <div id="menu-mobile" class="menu-mobile-btn">
+                <i class="menu-mobile-icon ti-menu"></i>
+            </div>
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!--End: button-search  -->
+            
+            <!--End: button  -->
         </div>
 
         <div id="slider">
@@ -47,20 +53,20 @@
 
         <div id="content">
             <!-- NCS section -->
-            <div class="content-section">
+            <div id="id-ncs-section" class="content-section">
                 <h2 class="section-heading">NoCopyright Sounds</h2>
                 <p class="sub-heading">We love Music</p>
                 <p class="about-text">NoCopyrightSounds is a copyright free / stream safe record label, providing free to use music to the content creator community. We work with artists from around the world in electronic music, representing genres from House to Dubstep via Trap, Drum & Bass, Electro Pop and more.NCS Music is free to use for independent Creators and their UGC (User Generated Content) on YouTube & Twitch - always remember to credit the Artist, track and NCS and link back to our original NCS upload. </p>
                 <div class="member-list">
-                    <div class="col-third text-align-center">
+                    <div class="member-item col-third mt-32 text-align-center">
                         <p class="member-name">Sound</p>
                         <img src="./assets/img/Slider/FACE.jfif" alt="" class="member-img">
                     </div>
-                    <div class="col-third text-align-center">
+                    <div class="member-item col-third mt-32 text-align-center">
                         <p class="member-name">Sound</p>
                         <img src="./assets/img/Slider/FACE.jfif" alt="" class="member-img">
                     </div>
-                    <div class=" col-third text-align-center">
+                    <div class=" member-item col-third mt-32 text-align-center">
                         <p class="member-name">Sound</p>
                         <img src="./assets/img/Slider/FACE.jfif" alt="" class="member-img">
                     </div>
@@ -69,10 +75,11 @@
                 </div>
             </div>
             <!-- Electronic section -->
-            <div class="electronic-section">
+            <div id="id-electronic" class="electronic-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">Electronic</h2>
-                    <p class="sub-heading text-white">ElectroDanceMixes</p>
+                    
+                    <p class="sub-heading text-white">Electro Dance Mixes</p>
                     <!-- Ticker-list -->
                     <ul class="ticker-list">
                         <li>EDM VN 247 <span class="sold-out">Live</span></li>
@@ -81,55 +88,55 @@
                     </ul>
                     <!-- Electronic-Buy -->
                     <div class="row electronics-list">
-                        <div class="col col-third">
-                            <img src="./assets/img/Elcetronic/anh1.jpg" alt="Anime-EDM" class="elcetronic-img" >
+                        <div class="mt-16 s-col-ful col col-third">
+                            <img src="./assets/img/Elcetronic/anh1.jpg" alt="Anime-EDM" class="elcetronic-img"  >
                             <div class="electronic-body">
                                 <h3 class="electronic-heading">EDM VN 247</h3>
                                 <p class="electronic-time">Fri 11 May 2021</p>
                                 <p class="electronic-desc">We work with artists from around the world in electronic music</p>
-                                <a href="#" class="btn">Buy Now</a>
+                                <button class="btn js-buy-tickets s-full-width">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col col-third">
-                            <img src="./assets/img/Elcetronic/anh2.jpg" alt="Anime-EDM" class="elcetronic-img" width="255.98px" height="143.98px" >
+                        <div class="mt-16 s-col-ful col col-third">
+                            <img src="./assets/img/Elcetronic/anh1.jpg" alt="Anime-EDM" class="elcetronic-img"  >
                             <div class="electronic-body">
                                 <h3 class="electronic-heading">EDM Love Anime</h3>
                                 <p class="electronic-time">Fri 14 Sep 2021</p>
                                 <p class="electronic-desc">We work with artists from around the world in electronic music</p>
-                                <a href="#" class="btn">Buy Now</a>
+                                <button class="btn js-buy-tickets s-full-width">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col col-third">
-                            <img src="./assets/img/Elcetronic/anh3.jpg" alt="Anime-EDM" class="elcetronic-img" width="255.98px" height="143.98px" >
+                        <div class="mt-16 s-col-ful col col-third">
+                            <img src="./assets/img/Elcetronic/anh1.jpg" alt="Anime-EDM" class="elcetronic-img"  >
                             <div class="electronic-body">
                                 <h3 class="electronic-heading">CSG Hacker</h3>
                                 <p class="electronic-time">Fri 12 July 2021</p>
                                 <p class="electronic-desc">We work with artists from around the world in electronic music</p>
-                                <a href="#" class="btn">Buy Now</a>
+                                <button class="btn js-buy-tickets s-full-width">Buy Now</button>
                             </div>
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
-            <!--Begin: KPOP section -->
-            <div class="content-section">
+            <!--Begin: CONTACT section -->
+            <div id="id-contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="sub-heading">Fan?Drop a note</p>
                 <div class="row">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-ful contact-info">
                         <p><i class="ti-location-pin"></i>HaiDuong,VietNam</p>
-                        <p><i class="ti-mobile"></i>Phone: +84</p>
-                        <p><i class="ti-email"></i>Email: hoanglongcf34no1@gmail.com</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+84"> +84</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:email123@gmail.com">email123@gmail.com</a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-ful contact-form">
                         <form action="">
                             <div class="row ">
-                                <div class="col col-half">
+                                <div class=" col col-half s-col-ful">
                                     <input type="text" name="" placeholder="Name" required id="" class="form-control">
                                 </div>
                                 
-                                <div class="col col-half">
+                                <div class=" col col-half s-col-ful s-mt-8">
                                     <input type="email" name="" placeholder="Email" required id="" class="form-control">
                                 </div>
                                 
@@ -139,7 +146,7 @@
                                     <input type="text" name="" placeholder="Message" required id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="mt-16 btn pull-right" type="submit" value="SEND">
+                            <input class="mt-16 btn pull-right s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -163,5 +170,91 @@
         </div>
 
     </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i>
+                Tickets
+            </header>
+            <div class="modal-body">
+                <label for="quanlity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Ticket ,$15 per person
+                </label>
+                <input id="quanlity" type="text" class="modal-input" placeholder="How many?">
+                <label for="email-modal" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="email-modal" type="text" class="modal-input" placeholder="Enter email......">
+                <button id="buy-tickets">
+                    Pay 
+                    <i class="ti-check"></i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('menu-mobile');
+        var headerHeight = header.clientHeight;
+        mobileMenu.onclick = function(){
+            var isClosed = header.clientHeight === headerHeight ;
+            if(isClosed){
+                header.style.height='auto';
+            }
+            else{
+                header.style.height=null;
+
+            }
+        }
+        //Đóng mở item
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for(var i=0 ; i< menuItems.length; i++){
+            menuItem = menuItems[i];
+
+            
+
+            menuItem.onclick = function(event){
+                console.log(this);
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                if(isParentMenu){
+                event.preventDefault();
+                }
+                else{
+                    header.style.height=null;
+                }
+            }
+        }
+    </script>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showBuyTickets(){
+            modal.classList.add('modal-open')
+        }
+        function hideBuyTickets(){
+            modal.classList.remove('modal-open')  
+        }
+
+        for(const buyBtn of buyBtns){
+            buyBtn.addEventListener('click',showBuyTickets)
+        }
+        modalClose.addEventListener('click',hideBuyTickets)
+        modal.addEventListener('click',hideBuyTickets)
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
+    </script>
 </body>
 </html>
